@@ -4,6 +4,11 @@
 
 
 # 第 3 节	基于 InternLM 和 LangChain 搭建你的知识库
+## 基础作业
+本机复现
+![5SARWN_P_UTH3{N7SJ)5`RX](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/e1e5269f-9c81-46e8-b5b0-abf4d0c9ca06)
+
+
 ## coding
 如果在一个局域网内，相同端口可以在不同机器上直接运行，7680端口我没做映射直接就能跑，在本机做的web_demo
 这个地方直接换模型不能运行，不知道为啥，用chatglm3推理不出来
