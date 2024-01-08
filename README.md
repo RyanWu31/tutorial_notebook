@@ -30,6 +30,11 @@ os.system('huggingface-cli download --resume-download internlm/internlm-20b --lo
 ## 进阶作业
 
 
+### lagent demo
+![X@28Y_ (JGZ(~@@UZ9B7XQP](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/b446cd8a-c341-40de-bf0d-d2a5dc9f7728)
+![)$V1I4)OE91LNFNVWFCJS$S](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/4087db96-7bde-4bb6-8088-d1692f08ad68)
+
+
 
 # 第 3 节	基于 InternLM 和 LangChain 搭建你的知识库
 ## 基础作业
