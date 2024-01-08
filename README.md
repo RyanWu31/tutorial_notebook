@@ -23,9 +23,10 @@ webdemo
 import os
 os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 os.system('huggingface-cli download --resume-download internlm/internlm-20b --local-dir ./')
-
 ```
 </pre>
+
+
 ## 进阶作业
 
 
