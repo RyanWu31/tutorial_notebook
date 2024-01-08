@@ -15,8 +15,12 @@ webdemo
 ![4$JH3Z(W8MRBL8BS`6X6C`H](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/6ca11a38-98b6-4c21-849d-11e1a91b5689)
 ![2PCA}7PZU0QJK(_)VM4(B~3](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/2db1dc3b-1013-4d4e-96cc-db2e1d6fa023)
 ![M4RH4XW@_I8VRYG`FAMVUBI](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/c3c558ec-f4cf-4b6d-ab20-46a76207d20f)
-
-
+代码：
+'''
+import os
+os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
+os.system('huggingface-cli download --resume-download internlm/internlm-20b --local-dir ./')
+'''
 
 ## 进阶作业
 
