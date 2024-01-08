@@ -2,6 +2,24 @@
 20240107for Shanghai AI lab
 
 
+# 第二节 轻松玩转书生·浦语大模型趣味 Demo
+
+## 基础作业
+### 300字小故事
+本机
+![5RMP`S$W9}Y_ZHU}@Q5B}_M](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/598100a4-89d5-4e23-a7b9-9124bf02dd8e)
+web
+![}XO2Q3T%Y(D`UT99L~X)_KE](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/ae46a2d9-e9fb-47d6-96e3-b4e6cf22248c)
+### 下载20b
+![4$JH3Z(W8MRBL8BS`6X6C`H](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/6ca11a38-98b6-4c21-849d-11e1a91b5689)
+![2PCA}7PZU0QJK(_)VM4(B~3](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/2db1dc3b-1013-4d4e-96cc-db2e1d6fa023)
+![M4RH4XW@_I8VRYG`FAMVUBI](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/c3c558ec-f4cf-4b6d-ab20-46a76207d20f)
+
+
+
+## 进阶作业
+
+
 
 # 第 3 节	基于 InternLM 和 LangChain 搭建你的知识库
 ## 基础作业
