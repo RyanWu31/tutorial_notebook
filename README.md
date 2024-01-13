@@ -45,7 +45,13 @@ os.system('huggingface-cli download --resume-download internlm/internlm-20b --lo
 ## 基础作业
 本机复现
 ![5SARWN_P_UTH3{N7SJ)5`RX](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/e1e5269f-9c81-46e8-b5b0-abf4d0c9ca06)
+## 进阶作业
+openxlab部署
+![W86Z}HE5`NG{8(D3G2H`}NY](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/d34908a9-f217-4b28-937b-bbb2bffef5b4)
+![J7M}93URS2L0@X}AV{$LUM6](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/49e20ff9-c5f6-4005-bd2a-2b8e8d3b7454)
+![9R~J VU(1UUY1CC M~YJUCK](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/b36a5e19-b1f7-4809-ae27-2131c0fa1204)
 
+https://openxlab.org.cn/models/detail/RyanWu31/Financial_Dialogue
 
 ## coding
 如果在一个局域网内，相同端口可以在不同机器上直接运行，7680端口我没做映射直接就能跑，在本机做的web_demo
