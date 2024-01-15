@@ -53,6 +53,36 @@ openxlab部署
 
 https://openxlab.org.cn/models/detail/RyanWu31/Financial_Dialogue
 
+
+
+# XTuner 大模型单卡低成本微调实战
+## 基础作业
+这里效果不太好，把代码放上来以后调
+<pre>
+```python
+(xtuner0.1.9) dell@dell-PowerEdge-T640:~/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_assistant$ NPROC_PER_NODE=2 xtuner train /home/dell/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_assistant/config/internlm_chat_7b_qlora_oasst1_e3_copy.py --deepspeed deepspeed_zero2
+
+(xtuner0.1.9) dell@dell-PowerEdge-T640:~/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_assistant$ xtuner convert pth_to_hf /home/dell/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_assistant/config/internlm_chat_7b_qlora_oasst1_e3_copy.py /home/dell/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_assistant/config/work_dirs/internlm_chat_7b_qlora_oasst1_e3_copy/epoch_20.pth /home/dell/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_assistant/config/work_dirs/hf
+
+(xtuner0.1.9) dell@dell-PowerEdge-T640:~/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_assistant$ xtuner convert pth_to_hf /home/dell/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_assistant/config/internlm_chat_7b_qlora_oasst1_e3_copy.py /home/dell/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_assistant/work_dirs/internlm_chat_7b_qlora_oasst1_e3_copy/epoch_20.pth /home/dell/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_assistant/config/work_dirs/hf
+
+(xtuner0.1.9) dell@dell-PowerEdge-T640:~/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_assistant$ xtuner convert merge /home/dell/.cache/modelscope/hub/Shanghai_AI_Laboratory/internlm-chat-7b /home/dell/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_assistant/config/work_dirs/hf /home/dell/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_assistant/config/work_dirs/hf_merge --max-shard-size 2GB
+
+
+
+ll/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_assistant/InternLM/web_demo.py --server.address 127.0.0.1 --server.port 6006
+
+  
+</pre>
+![image](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/432ccc8a-4eb0-4d25-bb22-70474374df9f)
+训练个20epoch还不行？
+![image](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/8014bc81-a575-4306-9079-f0dc679728d8)
+啥情况啊，根本不带变化的
+![image](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/6cf8b0bb-2718-494c-9925-012cbaa745c9)
+不如直接prompt来的快
+
+
+
 ## coding
 如果在一个局域网内，相同端口可以在不同机器上直接运行，7680端口我没做映射直接就能跑，在本机做的web_demo
 这个地方直接换模型不能运行，不知道为啥，用chatglm3推理不出来
