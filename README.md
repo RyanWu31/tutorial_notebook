@@ -55,6 +55,14 @@ https://openxlab.org.cn/models/detail/RyanWu31/Financial_Dialogue
 
 
 
+## 笔记
+如果在一个局域网内，相同端口可以在不同机器上直接运行，7680端口我没做映射直接就能跑，在本机做的web_demo
+这个地方直接换模型不能运行，不知道为啥，用chatglm3推理不出来
+这个问题解决了，就是response的格式不一样，例如llama有统一的resposon格式
+![image](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/a52f2180-9703-40a3-9198-62e15025a2cb)
+## 知识库就是一些文本，作为模型的先验知识
+怎么找知识库？
+需要遵守一些格式吗？直接把文字爬下来放那就行？
 # 第4节 XTuner 大模型单卡低成本微调实战
 ## 基础作业
 这里效果不太好，把代码放上来以后调
@@ -80,6 +88,11 @@ ll/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_ass
 啥情况啊，根本不带变化的
 ![image](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/6cf8b0bb-2718-494c-9925-012cbaa745c9)
 不如直接prompt来的快
+## 笔记
+这节问题比较多，先是小助手fine-tune没效果，说是主人的名字不能用英文，然后改成中文还是没效果。看了一下群里说的，要改max_length，还是没效果。又将epoch改成5，还是没效果，不知道为啥
+可能是因为用的多卡加速？就用的两块A100,5个epoch 1个小时就训练完了。
+NPROC_PER_NODE=2 xtuner train ./internlm_chat_7b_qlora_oasst1_e3_copy.py
+
 
 # 第5节 LMDeploy 的量化和部署
 
@@ -93,10 +106,3 @@ ll/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_ass
 
 
 
-## coding
-如果在一个局域网内，相同端口可以在不同机器上直接运行，7680端口我没做映射直接就能跑，在本机做的web_demo
-这个地方直接换模型不能运行，不知道为啥，用chatglm3推理不出来
-![image](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/a52f2180-9703-40a3-9198-62e15025a2cb)
-## 知识库就是一些文本，作为模型的先验知识
-怎么找知识库？
-需要遵守一些格式吗？直接把文字爬下来放那就行？
