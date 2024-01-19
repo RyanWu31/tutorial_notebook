@@ -55,7 +55,7 @@ https://openxlab.org.cn/models/detail/RyanWu31/Financial_Dialogue
 
 
 
-# XTuner 大模型单卡低成本微调实战
+# 第4节 XTuner 大模型单卡低成本微调实战
 ## 基础作业
 这里效果不太好，把代码放上来以后调
 <pre>
@@ -80,6 +80,16 @@ ll/remote/Big_model/Shanghai_AI_lab_2024tutorial/4/xtuner019/xtuner/personal_ass
 啥情况啊，根本不带变化的
 ![image](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/6cf8b0bb-2718-494c-9925-012cbaa745c9)
 不如直接prompt来的快
+
+# 第5节 LMDeploy 的量化和部署
+
+## 基础作业 使用 LMDeploy 以本地对话、网页Gradio、API服务中的一种方式部署 InternLM-Chat-7B 模型，生成 300 字的小故事（需截图）
+本地对话
+![image](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/1a5e5db1-30a6-4788-a539-d8c19e6ab0ec)
+![image](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/63b2def1-259f-4129-8767-23ccc2889620)
+
+
+
 
 
 
