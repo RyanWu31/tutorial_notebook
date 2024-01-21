@@ -108,7 +108,14 @@ NPROC_PER_NODE=2 xtuner train ./internlm_chat_7b_qlora_oasst1_e3_copy.py
 ![image](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/63b2def1-259f-4129-8767-23ccc2889620)
 
 
+# 第6节 OpenCompass 大模型评测
 
+## 基础作业 使用 OpenCompass 评测 InternLM2-Chat-7B 模型在 C-Eval 数据集上的性能
 
+![}{}_CM_ 2SWVEJ AWP9KGAM](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/270e07db-aaed-4f19-853f-b5ca04ff9721)
+
+![8SI%0G70N2LEU_AEYJ_UPH7](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/18121f99-68f0-4b07-afc7-c8904312cc2f)
+
+![076A%NVZ5AEX4E O}BDKW`X](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/2de99a25-7505-48a1-915a-1cec31f6f905)
 
 
