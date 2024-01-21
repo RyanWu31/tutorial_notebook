@@ -39,8 +39,14 @@ os.system('huggingface-cli download --resume-download internlm/internlm-20b --lo
 ![A58S7TC6 9O5(B34PM~`DNE](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/0dff248e-71a9-416e-9bb9-c56fcb92dd51)
 ![AMA%_ 5F QPN%XT~3(O%UGI](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/438eca16-0e85-4a92-a96f-6b57d292f558)
 
-
-
+## 笔记
+如果git clone失败，可以用gitee
+<pre>
+git clone https://github.com/open-compass/opencompass
+fatal: unable to access 'https://github.com/open-compass/opencompass/': Received HTTP code 503 from proxy after CONNECT   
+git clone https://gitee.com/open-compass/opencompass
+</pre>
+如果huggingface下载失败，可以用huggingface镜像
 # 第 3 节	基于 InternLM 和 LangChain 搭建你的知识库
 ## 基础作业
 本机复现
