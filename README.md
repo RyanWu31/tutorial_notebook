@@ -1,5 +1,26 @@
 # tutorial_notebook
 20240107for Shanghai AI lab
+# 目录
+- [tutorial_notebook](#tutorial_notebook)
+- [第二节 轻松玩转书生·浦语大模型趣味 Demo](#第二节-轻松玩转书生浦语大模型趣味-demo)
+  - [基础作业](#基础作业)
+    - [1.300字小故事 InternLM-Chat-7B 模型生成 300 字的小故事](#1300字小故事-internlm-chat-7b-模型生成-300-字的小故事)
+    - [2.下载20b 使用 huggingface_hub python 包，下载 InternLM-20B 的 config.json 文件到本地](#2下载20b-使用-huggingface_hub-python-包下载-internlm-20b-的-configjson-文件到本地)
+  - [进阶作业](#进阶作业)
+    - [1.lagent demo Lagent 工具调用 Demo 创作部署](#1lagent-demo-lagent-工具调用-demo-创作部署)
+    - [2.浦语·灵笔的图文理解及创作部署](#2浦语灵笔的图文理解及创作部署)
+  - [笔记](#笔记)
+- [第 3 节 基于 InternLM 和 LangChain 搭建你的知识库](#第-3-节-基于-internlm-和-langchain-搭建你的知识库)
+  - [基础作业](#基础作业-1)
+  - [进阶作业](#进阶作业-1)
+  - [笔记](#笔记-1)
+- [第4节 XTuner 大模型单卡低成本微调实战](#第4节-xtuner-大模型单卡低成本微调实战)
+  - [基础作业](#基础作业-2)
+  - [笔记](#笔记-2)
+- [第5节 LMDeploy 的量化和部署](#第5节-lmdeploy-的量化和部署)
+  - [基础作业 使用 LMDeploy 以本地对话、网页Gradio、API服务中的一种方式部署 InternLM-Chat-7B 模型，生成 300 字的小故事（需截图）](#基础作业-使用-lmdeploy-以本地对话网页gradioapi服务中的一种方式部署-internlm-chat-7b-模型生成-300-字的小故事需截图)
+- [第6节 OpenCompass 大模型评测](#第6节-opencompass-大模型评测)
+  - [基础作业 使用 OpenCompass 评测 InternLM2-Chat-7B 模型在 C-Eval 数据集上的性能](#基础作业-使用-opencompass-评测-internlm2-chat-7b-模型在-c-eval-数据集上的性能)
 
 
 # 第二节 轻松玩转书生·浦语大模型趣味 Demo
