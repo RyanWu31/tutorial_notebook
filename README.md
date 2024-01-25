@@ -23,7 +23,7 @@
   - [基础作业 使用 LMDeploy 以本地对话、网页Gradio、API服务中的一种方式部署 InternLM-Chat-7B 模型，生成 300 字的小故事（需截图）](#基础作业-使用-lmdeploy-以本地对话网页gradioapi服务中的一种方式部署-internlm-chat-7b-模型生成-300-字的小故事需截图)
 - [第6节 OpenCompass 大模型评测](#第6节-opencompass-大模型评测)
   - [基础作业 使用 OpenCompass 评测 InternLM2-Chat-7B 模型在 C-Eval 数据集上的性能](#基础作业-使用-opencompass-评测-internlm2-chat-7b-模型在-c-eval-数据集上的性能)
-- [笔记](#笔记)
+
 # 第一节 
 
 ## 笔记
