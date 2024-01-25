@@ -78,7 +78,7 @@ openxlab部署
 https://openxlab.org.cn/apps/detail/RyanWu31/fin_Chat
 https://github.com/RyanWu31/fin_Chat
 先放这回头改
-我这requirments里有langchain不知道为啥还报错
+不知道这个sentence transofrmer和大模型权重应该放哪
 ![W86Z}HE5`NG{8(D3G2H`}NY](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/d34908a9-f217-4b28-937b-bbb2bffef5b4)
 ![J7M}93URS2L0@X}AV{$LUM6](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/49e20ff9-c5f6-4005-bd2a-2b8e8d3b7454)
 ![9R~J VU(1UUY1CC M~YJUCK](https://github.com/RyanWu31/tutorial_notebook/assets/110294962/b36a5e19-b1f7-4809-ae27-2131c0fa1204)
