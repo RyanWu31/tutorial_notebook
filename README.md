@@ -78,6 +78,30 @@ fatal: unable to access 'https://github.com/open-compass/opencompass/': Received
 git clone https://gitee.com/open-compass/opencompass
 </pre>
 如果huggingface下载失败，可以用huggingface镜像
+
+InternLM2系列模型是一系列具有卓越性能的开源模型，其主要特点如下：
+
+200K上下文窗口：InternLM2模型具有长达200K的上下文窗口，在长文本任务如LongBench和L-Eval中表现出色，能够高效地处理大规模文本数据。
+
+综合性能卓越：相较于上一代模型，在各个方面性能显著提升，尤其在推理、数学、编程、聊天交互、指令跟随以及创造性写作等方面，表现领先于类似规模的开源模型。在某些评估中，InternLM2-Chat-20B甚至可能与ChatGPT（GPT-3.5）媲美甚至超越。
+
+代码解释和数据分析：InternLM2-Chat-20B通过代码解释支持GSM8K和MATH等任务，与GPT-4在性能上相当。此外，InternLM2-Chat还提供了数据分析功能。
+
+强大的工具使用：InternLM2在指令跟随、工具选择和反思等方面具有更好的工具利用能力，支持更多类型的智能体和多步骤工具调用，适用于复杂任务。
+
+模型大小：InternLM2系列包含两种模型规模，即7B和20B。7B模型适用于研究和应用，而20B模型更强大，能够支持更复杂的场景。
+
+此外，该模型系列的性能表现也得到了详细的评估，包括客观评估、长文本评估、数据污染评估、智能体评估和主观评估等多个方面。
+
+总之，InternLM2系列模型是一组性能卓越的开源模型，具有广泛的应用潜力，可用于各种任务，但仍然需要注意模型的潜在限制，如可能产生偏见、歧视或其他有害内容的风险。
+
+
+7b不如chatglm3， 20b比百川13b强
+
+
+
+
+
 # 第 3 节	基于 InternLM 和 LangChain 搭建你的知识库
 ## 基础作业
 本机复现
